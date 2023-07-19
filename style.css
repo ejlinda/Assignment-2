@@ -31,10 +31,18 @@ nav ul li {
 .banner{
     display: flex;
     justify-content: space-between;
-    background: #FFF;
+}
+.banner-content:hover{
+    background-image: url('images/Group 14.png');
 }
 .banner img{
     height: 600px;
+    width: 600px;
+}
+.banner-content{
+    width: 901px;
+    height: 700px;
+
 }
 .first{
     display: flex;
@@ -45,4 +53,31 @@ nav ul li {
 }
 .first img{
     width: 868px;
+}
+.sec-img {
+    display: flex;
+    justify-content: space-between;
+    margin: 2px;
+}
+.caption{
+    display: flex;
+    justify-content: space-between;
+}
+.second{
+    text-align: center;
+}
+.third{
+    display: flex;
+    justify-content: space-between;
+}
+.big{
+    position:relative;
+    top: 0;
+    left: 0;
+}
+.small{
+    position: absolute;
+    top: 400px;
+    right: 500px;
+    padding: 0;
 }
