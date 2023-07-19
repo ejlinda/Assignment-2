@@ -81,3 +81,154 @@ nav ul li {
     right: 500px;
     padding: 0;
 }
+.ele{
+    background-image: url('images/Rectangle\ 11.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    border: none;
+    margin: 2px;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 21px 60px;
+    border: none;
+    background-color: #FFF;
+}
+.twe{
+    background-image: url('images/Rectangle\ 12.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    border: none;
+    margin: 2px;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 21px 60px;
+    border: none;
+    background-color: #FFF;
+}
+.thi{
+    background-image: url('images/Rectangle\ 13.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    border: none;
+    margin: 2px;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 21px 60px;
+    border: none;
+    background-color: #FFF;
+}
+.fou{
+    background-image: url('images/Rectangle\ 14.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    border: none;
+    margin: 2px;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 21px 60px;
+    border: none;
+    background-color: #FFF;
+}
+.fif{
+    background-image: url('images/Rectangle\ 15.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    border: none;
+    margin: 2px;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 21px 60px;
+    border: none;
+    background-color: #FFF;
+}
+.six{
+    background-image: url('images/Rectangle\ 16.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    border: none;
+    margin: 2px;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 21px 60px;
+    border: none;
+    background-color: #FFF;
+}
+.sev{
+    background-image: url('images/Rectangle\ 17.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    border: none;
+    margin: 2px;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 21px 60px;
+    border: none;
+    background-color: #FFF;
+}
+.eig{
+    background-image: url('images/Rectangle\ 18.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    border: none;
+    margin: 2px;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 21px 60px;
+    border: none;
+    background-color: #FFF;
+}
+.nin{
+    background-image: url('images/Rectangle\ 19.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    border: none;
+    margin: 2px;
+    font-size: 15px;
+    text-decoration: none;
+    padding: 21px 60px;
+    border: none;
+    background-color: #FFF;
+}
+.fourth {
+    margin-top: 100px;
+    padding: 50px 10px;
+    align-items: center;
+.ele:hover{
+    border: 1px solid blue;
+    border-radius: 48px;
+}
+.twe:hover{
+    border: 1px solid blue;
+    border-radius: 48px;
+}
+.thi:hover{
+    border: 1px solid blue;
+    border-radius: 48px;
+}
+.fou:hover{
+    border: 1px solid blue;
+    border-radius: 48px;
+}
+.fif:hover{
+    border: 1px solid blue;
+    border-radius: 48px;
+}
+.six:hover{
+    border: 1px solid blue;
+    border-radius: 48px;
+}
+.sev:hover{
+    border: 1px solid blue;
+    border-radius: 48px;
+}
+.eig:hover{
+    border: 1px solid blue;
+    border-radius: 48px;
+}
+.nin:hover{
+    border: 1px solid blue;
+    border-radius: 48px;
+}
+@media screen (max-width:576px) {
+    nav > div > ul
+}
