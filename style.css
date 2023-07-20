@@ -111,9 +111,15 @@ nav ul li {
     justify-content: space-between;
     margin: 2px;
 }
-.caption{
+.sec-img{
     display: flex;
     justify-content: space-between;
+    padding-bottom: 20px;
+}
+.sec-img img:hover{
+    background-image: url('images/youtube\ \(2\).png');
+    background-repeat: no-repeat;
+    background-size: 300px 300px;
 }
 .second{
     text-align: center;
@@ -281,6 +287,13 @@ nav ul li {
     border: 1px solid blue;
     border-radius: 48px;
 }
-@media screen (max-width:576px) {
-    nav > div > ul
+@media screen and (max-width:576px) {
+    .navbar,.banner{
+        flex-direction: column;
+    }
+    footer{
+        display: flex;
+        flex-direction: column;
+        background-color: 50%;
+    }
 }
