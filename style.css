@@ -26,23 +26,75 @@ nav ul li {
 }
 .but{
     border: none;
-    margin: 2px; ;
+    background: transparent url('images/youtube\ \(1\).png') ;
+    background-position: right;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 0px 30px 0px 30px;
+}
+.but p::before {
+    content: url('images/youtube(1).png');
+    width: 20px;
+    height: 20px;
+    display: inline-block;
+}
+.click{
+    border: none;
+    background: transparent url('images/click.png')  ;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 0px 30px;
+    margin-right: 20px;
+}
+.down{
+    border: none;
+    background: transparent url('images/download.png')  ;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 0px 30px;
+    margin-right: 20px;
+}
+.games{
+    border: none;
+    background: transparent url('images/people.png')  ;
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 20px 20px;
+    font-size: 18px;
+    text-decoration: none;
+    padding: 0px 30px;
+    margin-right: 20px;
 }
 .banner{
     display: flex;
     justify-content: space-between;
 }
+.linear{
+    background-image: linear-gradient(deeppink,blueviolet);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
 .banner-content:hover{
     background-image: url('images/Group 14.png');
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: 600px 600px;
 }
 .banner img{
     height: 600px;
     width: 600px;
 }
 .banner-content{
-    width: 901px;
     height: 700px;
-
+    width: 800px;
 }
 .first{
     display: flex;
